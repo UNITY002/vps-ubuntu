@@ -49,6 +49,7 @@ RUN set -ex; \
 	ibus-clutter \
 	ibus-gtk \
 	ibus-gtk3 \
+	android-tools-adb \
 	ibus-qt4 \
     && apt-get autoclean \
     && apt-get autoremove \
